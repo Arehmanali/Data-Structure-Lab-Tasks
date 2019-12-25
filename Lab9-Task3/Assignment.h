@@ -8,8 +8,8 @@ class Assignment
 	string regNum;
 public:
 		Assignment();					// default constructor
-		void submitmission(string reg);			// submit marks using string
-		void marking(cNode*& ptr);
+		void submitmission(string reg);			// submit assignment using string
+		void marking(cNode*& ptr);			// compute the marks of student
 		cNode* removeAssignment();
 		void print()const;
 		~Assignment();
