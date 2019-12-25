@@ -7,8 +7,8 @@ class Assignment
 	int count;
 	string regNum;
 public:
-		Assignment();
-		void submitmission(string reg);
+		Assignment();					// default constructor
+		void submitmission(string reg);			// submit marks using string
 		void marking(cNode*& ptr);
 		cNode* removeAssignment();
 		void print()const;
