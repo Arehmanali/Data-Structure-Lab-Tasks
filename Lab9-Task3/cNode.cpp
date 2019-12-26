@@ -22,11 +22,13 @@ cNode::cNode(string reg)
 	regNo = reg;
 }
 
+/* geter function for getting the registeration number */
 string cNode::getRegNo()
 {
 	return regNo;
 }
 
+/* setter function for setting the registeration number */
 void cNode::setRegNo(string reg)
 {
 	regNo = reg;
