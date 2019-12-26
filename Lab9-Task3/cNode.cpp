@@ -16,6 +16,7 @@ cNode::cNode(int d)
 	next = NULL;
 }
 
+/* Parametric constructor for setting the name of Student */
 cNode::cNode(string reg)
 {
 	regNo = reg;
