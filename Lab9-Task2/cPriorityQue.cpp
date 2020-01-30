@@ -100,6 +100,7 @@ int cPriorityQue::frontNode()
 	return ptr->getData();
 }
 
+/* Return the integer data of rear Node */
 int cPriorityQue::rearNode()
 {
 	if (!rear)cerr << "\n cPriorityQue has NO Rear Node\n";
