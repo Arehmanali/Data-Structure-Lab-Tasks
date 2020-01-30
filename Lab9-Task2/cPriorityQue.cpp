@@ -91,7 +91,7 @@ cNode* cPriorityQue::get_highest_priority()
 	return ptr;
 }
 
-
+/* Return the integer data stored in front Node */
 int cPriorityQue::frontNode()
 {
 	if (!front)cerr << "\n cPriorityQue has NO front Node\n";
