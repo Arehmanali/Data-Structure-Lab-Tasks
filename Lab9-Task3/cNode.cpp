@@ -9,7 +9,7 @@ cNode::cNode()
 	data = 0;
 	regNo = "";
 }
-/*Definition of Parametrized Constructor */
+/*Definition of Parametrized Constructor for setting data as taking integer argument */
 cNode::cNode(int d)
 {
 	data = d;
