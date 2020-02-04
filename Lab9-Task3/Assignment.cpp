@@ -11,6 +11,7 @@ Assignment::Assignment()
 	regNum = "";
 }
 
+/* submission function for the assignment which takes the registeration number as argument */
 void Assignment::submitmission(string reg)
 {
 	cNode* ptr = new cNode();
