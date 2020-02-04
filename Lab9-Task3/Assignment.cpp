@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-
+/* Default constructor for setting data members to default values */
 Assignment::Assignment()
 {
 	front = NULL;
